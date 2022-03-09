@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+</head>
+<body>
+	<div class="container">
+  <div class="navbar">
+    <div class="logo">
+      <img src="img/logo.png" alt="Sushi" width="130px" />
+    </div>
+    <nav>
+      <ul id="MenuItems">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <img src="https://i.ibb.co/6XbqwjD/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />
+  </div>
+</div>
+<section class="landing-hero-wrapper">
+  <div class="landinghero">
+    <div class="landinghero-bg pinkbg"></div>
+    <div class="landinghero-content">
+      <h1>SUSHI</h1>
+      <span>
+        <h3>TERMS YOU NEED </h3>
+        <h2>TO KNOW</h2>
+      </span>
+      <div class="landing-bottomleft_deco"><span></span></div>
+      <img src="https://cdn.pixabay.com/photo/2020/06/17/22/13/fish-5311375__340.png" alt="Sushi picture">
+    </div>
+  </div>
+</section>
+<section class="graybg">
+  <div class="width-wrapper">
+    <h2 class="slash-deco">About That</h2>
+    <h3 class="" align="center">Sushi</h3>
+    <ul>
+      <li>Sushi is a Japanese dish consisting of rice mixed with vinegar and other ingredients. Since ancient times, the Japanese have known how to incubate fish, shrimp and seafood in rice balls to keep the delicious taste. When brewing, rice is often mixed with a little vinegar to make it sweet and sour. That's why the fish brewed in rice is transformed into sushi.</li>
+      <li>The rice mixed with vinegar to make sushi is called sumeshi or sushimeshi, the vinegar used to cook this rice is not ordinary vinegar but vinegar mixed with a little salt, sugar, and sweet wine Mirin, so it's called awasesu mixed vinegar .</li>
+      <li>The seafood used to make sushi can be fish, shrimp, squid, octopus, abalone, ... There are many types of sushi, depending on the way the chef prepares. Sushi is usually dipped with mustard (wasabi) or Japanese soy sauce and then enjoyed.</li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="width-wrapper">
+    <h2 class="slash-deco">More</h2>
+    <h3 class="gray2" align="center">Served With Sushi</h3>
+    <p>Wasabi: Spicy green condiment served with sushi. Original Japanese wasabi is difficult to store and very expensive, so horseradish is often used instead. Wasabi was originally used as an antibacterial ingredient for raw fish. Sushi chefs have added the exact amount of wasabi to each dish, so adding a lot of wasabi in a fancy restaurant might be seen as impolite. </p>
+
+    <p>Gari: Ginger, pickled ginger is used with sushi. Gari is used to clean up the flavor between servings of sushi. Ginger also aids digestion and helps kill bacteria in raw fish. Never eat ginger with a piece of sushi!</p>
+
+    <p>Daikon: Not to be confused with ginger, daikon is a mildly flavored white radish that is often used for crunchier dishes. Daikon soaked in Japanese is called takuan.</p>
+
+    <p>Sake: Correctly pronounced sake, not sah-keh. Fermented rice wine can be drunk hot or cold. Sake can have an alcohol content as high as 20%. To thank you for an authentic sushi meal, you can invite the chef to drink with you a glass of sake.</p>
+    <p class="note graybg"><b>*NOTE:</b><br> Thanks you for being with us. </p>
+  </div>
+</section>
+<div class="footer">
+  <div class="container1">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App for Android and iso mobile phone.</p>
+        <div class="app-logo">
+          <a href=""><img src="https://i.ibb.co/KbPTYYQ/play-store.png" alt="" /></a>
+          <a href=""><img src="https://i.ibb.co/hVM4X2p/app-store.png" alt="" /></a>
+        </div>
+      </div>
+
+      <div class="footer-col-2">
+        <img src="img/logo.png" alt="" />
+        <p>
+          Our aim is to create health values ​​for everyone .
+        </p>
+      </div>
+
+      <div class="footer-col-3">
+        <h3>Resources</h3>
+        <ul>
+          <a href=""><li>Docs</li></a>
+          <a href=""><li>Blog</li></a>
+          <a href=""><li>Policy</li></a>
+          <a href=""><li>eBooks</li></a>
+        </ul>
+      </div>
+
+      <div class="footer-col-4">
+        <h3>Follow Us</h3>
+        <ul>
+          <a href=""><li>Facebook</li></a>
+          <a href=""><li>Twitter</li></a>
+          <a href=""><li>Instagram</li></a>
+          <a href=""><li>YouTube</li></a>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">Copyright &copy; 2022 - Sushi</p>
+  </div>
+</div>
+
+    <script>
+  var MenuItems = document.getElementById('MenuItems');
+  MenuItems.style.maxHeight = '0px';
+
+  function menutoggle() {
+    if (MenuItems.style.maxHeight == '0px') {
+      MenuItems.style.maxHeight = '200px';
+    } else {
+      MenuItems.style.maxHeight = '0px';
+    }
+  }
+</script>
+</body>
+</html>

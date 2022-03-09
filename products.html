@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/products.css">
+</head>
+<body>
+	<div class="container">
+  <div class="navbar">
+    <div class="logo">
+      <img src="img/logo.png" alt="Sushi" width="130px" />
+    </div>
+    <nav>
+      <ul id="MenuItems">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="#"><img src="https://i.ibb.co/PNjjx3y/cart.png" alt="" width="30px" height="30px" /></a>
+    <img src="https://i.ibb.co/6XbqwjD/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />
+  </div>
+</div>
+
+<div class="small-container">
+  <div class="row row-2">
+    <h2>All Products</h2>
+    <select>
+      <option value="">All</option>
+      <option value="">Discount</option>
+      <option value="">Product Star Rating</option>
+    </select>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/inari-sushi-picture-id1315848762?b=1&k=20&m=1315848762&s=170667a&w=0&h=WmYsalFTyH6z0Vn7o6PSksUp_agwx3M4mnqpH67NDqY=" alt="" />
+      <h4>Inari sushi</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <p>$77.0</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/close-up-of-sashimi-sushi-set-with-chopsticks-and-soy-picture-id533713646?b=1&k=20&m=533713646&s=170667a&w=0&h=_7q65blQYfCM9uvxBEyuRYRzOeNbwOhvTScsgNWl-Q4=" alt="" />
+      <h4>Nigiri sushi</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <p>$56.2</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/sushi-nigiri-with-fresh-salmon-and-maki-roll-picture-id512056752?b=1&k=20&m=512056752&s=170667a&w=0&h=7KdpLhRuVVO6Q9AXM_2kYDn_NVRinRDXHtFX2Ddlczk=" alt="" />
+      <h4>Gunkanmaki</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <p>$69.0</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/sushi-in-sauce-with-wasabi-and-ginger-picture-id1149127648?b=1&k=20&m=1149127648&s=170667a&w=0&h=ZOXRMeh-VdBlvLRP1blBBHwMkTU2IdZSpfcVbJ-7TFw=" alt="" />
+      <h4>Temari sushi</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <p>$31.3</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/japanese-restaurant-sushi-dish-picture-id497022342?b=1&k=20&m=497022342&s=170667a&w=0&h=IT5TGkDcTIs0d5df8CjW1tUoAvi2Bzj0GlkLfQ047-E=" alt="" />
+      <h4>Futomaki</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <p>$50.7</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/blue-fin-tuna-roll-japanese-food-picture-id1171918580?b=1&k=20&m=1171918580&s=170667a&w=0&h=DDCJ5LT0XRtU3qOY0Cc8FpXZr7zsBjD7A3qss580f9Q=" alt="" />
+      <h4>Hosomaki</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <p>$78.5</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/3rd-temaki-picture-id1328895243?b=1&k=20&m=1328895243&s=170667a&w=0&h=C2aQMNiczXk3QLn6RsIPfKjoJ0JSdnqg0iHMcCtjOww=" alt="" />
+      <h4>Temaki</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <p>$67.0</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/luxuy-sushi-plate-at-high-end-japanese-restaurant-in-japan-plated-picture-id1272431873?b=1&k=20&m=1272431873&s=170667a&w=0&h=pXykKCMeOpjvRL8JdRCL_aXyIhNs0UHhpjtduucN1XI=" alt="" />
+      <h4>Oshi sushi</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <p>$32.1</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/chirashi-sushi-platter-with-salad-picture-id1358400473?b=1&k=20&m=1358400473&s=170667a&w=0&h=k4hYMCFYeLH96PufUmXvHSebYzSlV3O9ohSU520rU3Y=" alt="" />
+      <h4>Chirashi sushi</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <p>$45.0</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/setsubun-ehmaki-picture-id1298654277?b=1&k=20&m=1298654277&s=170667a&w=0&h=Pl8mLgl_mUKICToTJzzWfnRSyrSX6FcYwGJxlhBOPnA=" alt="" />
+      <h4>Ehōmaki</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <p>$35.3</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/tempura-prawn-hosomaki-rolls-picture-id1319178969?b=1&k=20&m=1319178969&s=170667a&w=0&h=e5EiPeKuRrVY86hM3wFWn0Xiv37hNIuAkIDBvlPgwGg=" alt="" />
+      <h4>Tekkamaki</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <p>$70.0</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/sushi-rolls-hosomaki-set-with-salmon-and-avocado-picture-id1296951697?b=1&k=20&m=1296951697&s=170667a&w=0&h=Dq2pfLcXqG8Ae3ZwR6mTYET3Pr0yMYLxUX1-wISf63k=" alt="" />
+      <h4>Uramaki</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <p>62.5</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/close-up-of-sashimi-sushi-set-with-chopsticks-and-soy-picture-id533713646?b=1&k=20&m=533713646&s=170667a&w=0&h=_7q65blQYfCM9uvxBEyuRYRzOeNbwOhvTScsgNWl-Q4=" alt="" />
+      <h4>Sushi Sashimi</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <p>$65.0</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+
+    <div class="col-4">
+      <img src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2017/10/1024px-makizushi.jpg" alt="" />
+      <h4>Norimaki</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <p>$30.2</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+
+    <div class="col-4">
+      <img src="https://s3-ap-northeast-1.amazonaws.com/thegate/2019/10/25/17/16/40/Various-sushi.jpg" alt="" />
+      <h4>Sushi Edomae</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <p>$69.4</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+
+    <div class="col-4">
+      <img src="https://media.istockphoto.com/photos/kaki-no-ha-zushi-mackerel-sushi-wrapped-by-persimmon-leaf-japanese-picture-id1294458304?b=1&k=20&m=1294458304&s=170667a&w=0&h=zbSeXDIH4B9BxjfYA03rbe9WtKjfBbyMeHel6OxdbqQ=" alt="" />
+      <h4>Kakinoha-Zushi</h4>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <p>$40.0</p>
+      <div class="acy" align="center"> <a href="#" class="two" >BUY</a> </div>
+    </div>
+  </div>
+
+  <div class="page-btn">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>&#8594;</span>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="container1">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App for Android and iso mobile phone.</p>
+        <div class="app-logo">
+          <a href=""><img src="https://i.ibb.co/KbPTYYQ/play-store.png" alt="" /></a>
+          <a href=""><img src="https://i.ibb.co/hVM4X2p/app-store.png" alt="" /></a>
+        </div>
+      </div>
+
+      <div class="footer-col-2">
+        <img src="img/logo.png" alt="" />
+        <p>
+          Our aim is to create health values ​​for everyone .
+        </p>
+      </div>
+
+      <div class="footer-col-3">
+        <h3>Resources</h3>
+        <ul>
+          <a href=""><li>Docs</li></a>
+          <a href=""><li>Blog</li></a>
+          <a href=""><li>Policy</li></a>
+          <a href=""><li>eBooks</li></a>
+        </ul>
+      </div>
+
+      <div class="footer-col-4">
+        <h3>Follow Us</h3>
+        <ul>
+          <a href=""><li>Facebook</li></a>
+          <a href=""><li>Twitter</li></a>
+          <a href=""><li>Instagram</li></a>
+          <a href=""><li>YouTube</li></a>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">Copyright &copy; 2022 - Sushi</p>
+  </div>
+</div>
+
+<script>
+  var MenuItems = document.getElementById('MenuItems');
+  MenuItems.style.maxHeight = '0px';
+
+  function menutoggle() {
+    if (MenuItems.style.maxHeight == '0px') {
+      MenuItems.style.maxHeight = '200px';
+    } else {
+      MenuItems.style.maxHeight = '0px';
+    }
+  }
+</script>
+</body>
+</html>

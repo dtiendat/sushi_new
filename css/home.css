@@ -1,0 +1,253 @@
+@charset "UTF-8";
+body {
+  font-size: +100;
+}
+body header {
+  background-color: #21243d;
+}
+body header .img1 {
+  text-align: left;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  size: +3;
+}
+body header .menu1 {
+  text-align: center;
+}
+body header .menu1 a {
+  color: white;
+  float: left;
+  padding-right: 3%;
+  font-size: +3;
+  padding-top: 2%;
+  display: block;
+  text-decoration: none;
+}
+body header .menu-search i {
+  padding-left: 5%;
+}
+body header .menu-search a {
+  float: right;
+  padding-top: 0%;
+}
+body header .menu-search input {
+  float: left;
+  padding-top: 0%;
+  width: 300px;
+}
+body header .menu-search {
+  float: right;
+  padding-top: -50px;
+}
+body header a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+body header a:active {
+  color: orangered;
+  text-decoration: underline;
+}
+body #khoi2 {
+  color: white;
+  padding-left: 12%;
+  padding-top: 25%;
+  background-attachment: scroll;
+}
+body #khoi2 h1 {
+  font-size: 520%;
+  font-family: Stem Bold;
+}
+body #khoi2 input {
+  border-radius: 25px;
+  color: white;
+  background-color: #21243d;
+  padding: 1% 3%;
+  margin-bottom: 30%;
+}
+body .khoi3 {
+  text-align: center;
+  color: white;
+}
+body .khoi3 h1 {
+  padding-top: 3%;
+}
+body .khoi3 p {
+  margin: 2%;
+}
+body .khoi3 .popular {
+  padding-bottom: 3%;
+}
+body .khoi3 .popular .menu1 .menu2 .menu3 {
+  float: left;
+  margin-right: 10%;
+  text-shadow: yellow;
+  padding-bottom: 10%;
+  transition: transform 0.5s;
+}
+body .khoi3 .popular .menu1 .menu2 .menu3 h4 {
+  margin: 2%;
+}
+body .khoi3 .popular .menu1 .menu2 .menu3 img {
+  margin: 2%;
+  padding-bottom: 2%;
+}
+body .khoi3 .popular .menu1:hover {
+  background-color: #C4C4C4;
+  transform: translateY(-5px);
+  color: BLUE;
+}
+body .khoi3 .popular .menu2:hover {
+  background-color: #C4C4C4;
+  color: BLUE;
+  transform: translateY(-5px);
+}
+body .khoi3 .popular .menu3:hover {
+  background-color: #C4C4C4;
+  color: BLUE;
+  transform: translateY(-5px);
+}
+body .khoi4 {
+  color: #21243d;
+  padding-bottom: 12%;
+  padding-top: 5%;
+}
+body .khoi4 img {
+  width: 100%;
+  height: auto;
+  padding-left: 5%;
+}
+body .khoi4 h1 {
+  font-size: 520%;
+  font-family: Stem Bold;
+}
+body .khoi4 input {
+  border-radius: 25px;
+  color: white;
+  background-color: #21243d;
+  padding: 1% 3%;
+  margin-bottom: 10%;
+}
+body .khoi5 {
+  padding-top: 5%;
+  padding-bottom: 20%;
+}
+body .khoi5 .round {
+  border-radius: 50%;
+  font-size: +10;
+  float: left;
+  border: 2px solid red;
+  height: 200px;
+  width: 200px;
+  padding-top: 3%;
+  margin-right: 5%;
+  justify-content: space-around;
+}
+body .khoi6 {
+  color: #21243d;
+  padding-left: 12%;
+  padding-top: 5%;
+}
+body .khoi6 img {
+  width: 100%;
+  height: auto;
+  padding-left: 5%;
+}
+body .khoi6 h1 {
+  font-size: 520%;
+  font-family: Stem Bold;
+}
+body .khoi6 input {
+  border-radius: 25px;
+  color: white;
+  background-color: #21243d;
+  padding: 1% 3%;
+  margin-bottom: 30%;
+}
+body .khoi7 {
+  padding: 10%;
+}
+body .khoi7 h4 {
+  font-family: Impact;
+  margin: 5%;
+}
+body .khoi7 img {
+  width: 60%;
+  height: auto;
+}
+body .khoi8 {
+  color: #21243d;
+  padding-left: 10%;
+  padding-top: 20%;
+}
+body .khoi8 h1 {
+  font-size: 500%;
+  font-family: Stem Bold;
+}
+body .khoi8 input {
+  color: white;
+  background-color: #21243d;
+  padding: 1% 3%;
+  margin-bottom: 30%;
+}
+body .khoi8 input.first {
+  border-radius: 0 0  30px 30px;
+}
+body .khoi8 input.last {
+  border-radius: 30px;
+}
+body footer {
+  background-color: #21243d;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+body footer .col-first {
+  padding-left: 10%;
+}
+body footer .col-first a {
+  color: white;
+}
+body footer .col-last a {
+  color: white;
+}
+@media screen and (min-width: 800px) {
+  body body {
+    font-size: 70%;
+  }
+  body body img {
+    width: 100%;
+  }
+  body body .khoi5 {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 400px) {
+  body body {
+    font-size: 30%;
+  }
+  body body img {
+    width: 30%;
+  }
+  body body .home a {
+    font-size: 1px;
+  }
+  body body .khoi5 {
+    height: 50px;
+    width: 50px;
+    font-size: 50%;
+  }
+  body body .khoi2 {
+    padding-top: 5px；h1;
+    padding-top-font-size: 10px;
+  }
+  body body .khoi2 p {
+    font-size: 5px;
+  }
+  body body .khoi3 img {
+    width: 100px;
+    font-size: 10%;
+  }
+  body body .khoi4 h1 p input {
+    text-align: center;
+  }
+}
